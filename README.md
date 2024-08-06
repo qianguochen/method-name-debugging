@@ -5,3 +5,6 @@
 ### GPTComparisonHeMa项目，根据HeMa项目是实验逻辑，通过GPT大模型预测方法名，比较两个实验的实验结果数据。
 ## code2vec文件夹
 ### code2vec项目，基于深度学习和自然语言处理，将大数据量的Java文件作为训练集训练数据模型，根据该模型预测方法名。
+### 项目数据集参考 
+#### HeMa/javaProjectMenu_JavaRepos400.txt
+#### HeMa/javaProjectMenu_JavaRepos.txt
