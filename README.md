@@ -1,10 +1,10 @@
 # method-name-debugging
-## HeMa文件夹
-### HeMa项目，基于启发式算法预测方法名。将大数据量的优秀的方法名以及参数和返回值类型作为验证集，通过参数以及返回值类型预测方法名。
-## GPTComparisonHeMa文件夹
-### GPTComparisonHeMa项目，根据HeMa项目是实验逻辑，通过GPT大模型预测方法名，比较两个实验的实验结果数据。
-## code2vec文件夹
-### code2vec项目，基于深度学习和自然语言处理，将大数据量的Java文件作为训练集训练数据模型，根据该模型预测方法名。
-### 项目数据集参考HeMa项目（Github知名Java开源项目名称集）
+## HeMa
+### HeMa project，Predict method names based on heuristics. A large amount of excellent method names and parameters and return value types are used as a validation set, and the method names are predicted by parameters and return value types.
+## GPTComparisonHeMa
+### GPTComparisonHeMa project，According to the HeMa project is experimental logic, through the GPT large model prediction method name, compare the experimental results of the two experiments data.
+## code2vec
+### code2vec project，Based on deep learning and natural language processing, a large amount of Java files are used as the training set to train the data model, and the method name is predicted according to the model.
+### Project dataset reference HeMa project（Github set of well-known Java open source project names）
 #### HeMa/javaProjectMenu_JavaRepos400.txt
 #### HeMa/javaProjectMenu_JavaRepos.txt

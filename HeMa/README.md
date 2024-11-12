@@ -1,28 +1,26 @@
-### 一、项目环境搭建
-1. 操作系统：CentOS 7
-2. 软件环境：Java 8
-3. 依赖管理：maven
+### 一、Environment Setup
+1. Operating system：CentOS 7
+2. Development environment：Java 8
+3. Dependency management：maven
 
-### 二、项目数据集
-该项目的数据集为Java源码文件，可参考提供的GitHub优秀开源项目列表
+### 二、Project dataset
+The data set of this project is Java source files, which can be consulted by the GitHub excellent open source project list provided
 - javaProjectMenu_JavaRepos.txt
 - javaProjectMenu_JavaRepos400.txt
 
-### 三、提取训练集
-位置
-- src/main/CreateTrainSetAPP.java
+### 三、Extracting the training set
 
-参数
-- dir --> Java项目路径
+- run src/main/CreateTrainSetAPP.java
+- dir --> Java project path
 
-### 四、实验测试
-位置
-- src/main/App.java
+### 四、Experimental testing
 
-参数
-- dir --> Java项目路径(测试集)
-- resultName --> 保存结果文件 
-- status --> 是否线程安全    
-- removeRepeat --> 是否去重
-- methodLevel --> 分级等级
-- trainSetPath --> 指向提取训练集路径
+- run src/main/App.java
+
+parameters
+- dir --> Java project path (test set)
+- resultName --> Save the result file
+- status --> Thread-safe or not   
+- removeRepeat --> Deduplication or not
+- methodLevel --> Grading level
+- trainSetPath --> Extract the training set path
